@@ -1,9 +1,93 @@
 h1 {
     color: red;
+    border: 1rem dotted greenyellow;
+    text-align: center;
 }
-h1.page1 {
-    color: blue;
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: none;
 }
+
 body ul li {
-    color: green;
+    color: #e186f7;
 }
+
+p {
+    text-decoration: underline #15888c double 0.1rem;
+    text-indent: 2rem;
+}
+
+p.maiúsculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2rem;
+    line-height: 4rem;
+    word-spacing: 4rem;
+    color: #FFFF;
+    font: italic small-caps bold 4rem impact;
+    text-shadow: 0.4rem 0.4rem 0.6rem red, 0 0 2rem greenyellow, 0 0 2rem black;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: underline #15888c 0.05rem;
+    color: #15888c;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #24c4c9;
+}
+
+footer {
+    clear: both;
+    background: #b2e9eb url("../img/gatinho.png") no-repeat left bottom;
+    height: 256px;
+}
+
+div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: #68e1fc;
+    color: #FFFF;
+    border: 0.4rem solid #0b9aba;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+h1#page1{
+    color: #be69ff;
+    border: 0.7rem dashed #8fbcf7;
+}
+
+img{
+    width: 40rem;
+}
+
+ul{
+    list-style-type: square;
+}
+
+h1.page2{
+    color: red;
+    border: 1rem groove red;
+    border-radius: 1rem;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+section img{
+    float: left;
+}
+
