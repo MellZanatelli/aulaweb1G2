@@ -50,7 +50,7 @@ footer {
     height: 256px;
 }
 
-div{
+div {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -64,30 +64,48 @@ div{
     font-size: 2rem;
 }
 
-h1#page1{
+h1#page1 {
     color: #be69ff;
     border: 0.7rem dashed #8fbcf7;
 }
 
-img{
+img {
     width: 40rem;
 }
 
-ul{
+ul {
     list-style-type: square;
 }
 
-h1.page2{
+h1.page2 {
     color: red;
     border: 1rem groove red;
     border-radius: 1rem;
 }
 
-ol{
+ol {
     list-style-type: upper-roman;
 }
 
-section img{
+section img {
     float: left;
 }
 
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main.flexbox article {
+    background-color: #8fbcf7;
+    margin: 1rem;
+    padding: 2rem;
+}
